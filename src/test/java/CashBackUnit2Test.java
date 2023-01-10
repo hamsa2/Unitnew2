@@ -23,4 +23,14 @@ public class CashBackUnit2Test {
 
         assertEquals(actual, expected);
     }
+
+    @Test
+    public void checkCash3() {
+        CashBackUnit2 cashBackUnit2 = new CashBackUnit2();
+        int amount = 1000;
+        int expected = 0;
+        int actual = cashBackUnit2.remain(amount);
+
+        assertEquals(actual, expected);
+    }
 }
